@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.confluent.developer.KafkaStreamsApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-29T09:31:02" hostname="C02GJ0LMMD6T" time="0.187">
+  <properties/>
+  <testcase name="topologyShouldUpperCaseInputs" classname="io.confluent.developer.KafkaStreamsApplicationTest" time="0.187"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.apache.kafka.streams.processor.internals.StreamTask - stream-thread [Test worker] task [0_0] Initialized
+[Test worker] INFO org.apache.kafka.streams.processor.internals.StreamTask - stream-thread [Test worker] task [0_0] Restored and ready to run
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Observed event: Chuck Norris can write multi-threaded applications with a single thread.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Transformed event: CHUCK NORRIS CAN WRITE MULTI-THREADED APPLICATIONS WITH A SINGLE THREAD.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Observed event: No statement can catch the ChuckNorrisException.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Transformed event: NO STATEMENT CAN CATCH THE CHUCKNORRISEXCEPTION.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Observed event: Chuck Norris can divide by zero.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Transformed event: CHUCK NORRIS CAN DIVIDE BY ZERO.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Observed event: Chuck Norris can binary search unsorted data.
+[Test worker] INFO io.confluent.developer.KafkaStreamsApplication - Transformed event: CHUCK NORRIS CAN BINARY SEARCH UNSORTED DATA.
+[Test worker] INFO org.apache.kafka.streams.processor.internals.StreamTask - stream-thread [Test worker] task [0_0] Suspended RUNNING
+[Test worker] INFO org.apache.kafka.streams.processor.internals.StreamTask - stream-thread [Test worker] task [0_0] Suspended running
+[Test worker] INFO org.apache.kafka.streams.processor.internals.RecordCollectorImpl - topology-test-driver Closing record collector clean
+[Test worker] INFO org.apache.kafka.streams.processor.internals.StreamTask - stream-thread [Test worker] task [0_0] Closed clean
+]]></system-err>
+</testsuite>
